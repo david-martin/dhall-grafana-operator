@@ -5,7 +5,7 @@ Experimental [dhall](https://dhall-lang.org/#) types for [grafana-operator](http
 * `dhall` & dhall-openapi (for the `openapi-to-dhall` cli) - Can be downloaded from https://github.com/dhall-lang/dhall-haskell/releases
 * [yq](https://github.com/mikefarah/yq)
 
-## Generating dhall typs
+## Generating dhall types
 
 The example target works with 1 CRD currently, `generate-dhall-types-grafana-dashboard`.
 Multiple CRDs are not supported by the `openapi-to-dhall` cli.
