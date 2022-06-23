@@ -1,8 +1,6 @@
-let Kubernetes = (../imports.dhall).Kubernetes
-
 { apiVersion : Text
 , kind : Text
-, metadata : Kubernetes.ObjectMeta.Type
+, metadata : (../imports.dhall).Kubernetes.ObjectMeta.Type
 , spec :
     Optional
       { configMapRef :

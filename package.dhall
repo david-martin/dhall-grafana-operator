@@ -1,2 +1,2 @@
   ./schemas.dhall
-∧ { IntOrString = (./types.dhall).IntOrString, Resource = ./typesUnion.dhall }
+∧ { IntOrString = (./imports.dhall).Kubernetes.IntOrString, Resource = ./typesUnion.dhall }
